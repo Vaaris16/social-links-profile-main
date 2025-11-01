@@ -1,0 +1,64 @@
+.github {
+    margin-top: 170px;
+    width: 18.75rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    font-family: inter-semi-bold;
+}
+
+.front_end {
+    width: 18.75rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    font-family: inter-semi-bold;
+}
+
+.linked_in {
+    width: 18.75rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    font-family: inter-semi-bold;
+}
+
+.twitter {
+    width: 18.75rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    font-family: inter-semi-bold;
+}
+
+.instagram {
+    width: 18.75rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    font-family: inter-semi-bold;
+}
+
+.github:hover, 
+.front_end:hover,
+.linked_in:hover,
+.twitter:hover,
+.instagram:hover {
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+}

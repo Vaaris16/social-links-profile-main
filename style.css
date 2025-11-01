@@ -1,0 +1,73 @@
+@font-face {
+    font-family: inter-semi-bold;
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: inter-bold;
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: inter-regular;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter-VariableFont;
+    src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+
+html, body {
+    background-color: hsl(0, 0%, 8%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.main_container {
+    background-color: hsl(0, 0%, 12%);
+    width: 21.875rem;
+    height: 32.8125rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.avatar-jessica {
+    border-radius: 50%;
+    width: 4.0625rem;
+    height: 4.0625rem;
+    text-align: center;
+    bottom: 440px;
+    position: absolute;
+}
+
+.name {
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-family: inter-semi-bold;
+    bottom: 385px;
+}
+
+.country {
+    font-size: 15px;
+    position: absolute;
+    bottom: 370px;
+    color: hsl(75, 94%, 57%);
+    font-family: inter-semi-bold;
+}
+
+.description {
+    position: absolute;
+    bottom: 330px;
+    font-family: Inter-VariableFont;
+    font-size: 0.6875rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 100;
+}
